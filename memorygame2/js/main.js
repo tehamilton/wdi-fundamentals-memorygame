@@ -16,13 +16,15 @@ function checkForMatch(){
   console.log("Sorry, try again.");
 }
 }
-function flipCard(cardId){
-	console.log("User flipped " + cards[cardId]);
-	cardsInPlay.push(cards[cardId]);
-	checkForMatch();
+
+function flipCard(cardId) {	
+console.log("User flipped " + cards[cardId]);
+	cardsInPlay.push(cards[0, 2]);	
 }
 flipCard(0);
 flipCard(2);
+checkForMatch();
+
 //let cardOne = cards[0];
 //cardsInPlay.push(cardOne);
 //console.log("User flipped " + cardOne);
